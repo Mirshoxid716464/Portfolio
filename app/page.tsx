@@ -27,7 +27,7 @@ export default function OverviewPage() {
             {/* Left Content */}
             <div className="lg:col-span-7 space-y-8">
               <div className="space-y-6">
-                <p className="text-sm font-medium text-muted-foreground tracking-wide uppercase">Salom, men</p>
+                <p className="text-sm font-medium text-muted-foreground tracking-wide uppercase">Salom, </p>
                 <h1 className="text-5xl lg:text-7xl font-light leading-[0.9] tracking-tight">
                   IT Management <span className="font-medium">talabasi</span>
                 </h1>

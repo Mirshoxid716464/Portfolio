@@ -9,10 +9,10 @@ const projects = [
     title: "E-commerce Web Application",
     description:
       "Zamonaviy e-commerce platformasi React va Node.js yordamida yaratilgan. To'liq funksional onlayn do'kon imkoniyatlari bilan.",
-    image: "/modern-ecommerce-interface.png",
+    image: "/image-removebg-preview - 2025-10-01T140627.236.png",
     date: "2024 yil Dekabr",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    githubUrl: "https://github.com/username/ecommerce-project",
+    githubUrl: "https://www.figma.com/proto/jZCgYTlwrwW3qMVsDRNwlf/Untitled?page-id=0%3A1&node-id=10-65&viewport=551%2C-262%2C0.22&t=fiGxFZ8AmS4cLVRr-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=10%3A65&show-proto-sidebar=1",
     featured: true,
   },
   {
@@ -20,56 +20,56 @@ const projects = [
     title: "Task Management System",
     description:
       "Jamoaviy ishlash uchun vazifalarni boshqarish tizimi. Real-time yangilanishlar va foydalanuvchi rollarini boshqarish.",
-    image: "/task-management-dashboard.png",
+    image: "/photo_2025-10-01_14-10-52.jpg",
     date: "2024 yil Noyabr",
     technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
     githubUrl: "https://github.com/username/task-management",
     featured: true,
   },
-  {
-    id: 3,
-    title: "Weather App",
-    description:
-      "Ob-havo ma'lumotlarini ko'rsatuvchi mobil-friendly ilova. Geolokatsiya va 7 kunlik prognoz imkoniyatlari.",
-    image: "/weather-app-interface.png",
-    date: "2024 yil Oktabr",
-    technologies: ["React", "API Integration", "CSS3"],
-    githubUrl: "https://github.com/username/weather-app",
-    featured: false,
-  },
-  {
-    id: 4,
-    title: "Portfolio Website",
-    description:
-      "Shaxsiy portfolio veb-sayti zamonaviy dizayn va responsive layout bilan. Animatsiyalar va interaktiv elementlar.",
-    image: "/portfolio-website-design.png",
-    date: "2024 yil Sentyabr",
-    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    githubUrl: "https://github.com/username/portfolio",
-    featured: false,
-  },
-  {
-    id: 5,
-    title: "Chat Application",
-    description:
-      "Real-time chat ilovasi Socket.io yordamida. Guruh chatlari, fayl yuborish va emoji qo'llab-quvvatlash.",
-    image: "/chat-application-interface.png",
-    date: "2024 yil Avgust",
-    technologies: ["React", "Socket.io", "Express", "MongoDB"],
-    githubUrl: "https://github.com/username/chat-app",
-    featured: false,
-  },
-  {
-    id: 6,
-    title: "Blog Platform",
-    description:
-      "Shaxsiy blog platformasi CMS imkoniyatlari bilan. Maqolalar yozish, tahrirlash va nashr qilish tizimi.",
-    image: "/blog-platform-cms-interface.jpg",
-    date: "2024 yil Iyul",
-    technologies: ["Next.js", "Markdown", "Vercel", "Git"],
-    githubUrl: "https://github.com/username/blog-platform",
-    featured: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "Weather App",
+  //   description:
+  //     "Ob-havo ma'lumotlarini ko'rsatuvchi mobil-friendly ilova. Geolokatsiya va 7 kunlik prognoz imkoniyatlari.",
+  //   image: "/weather-app-interface.png",
+  //   date: "2024 yil Oktabr",
+  //   technologies: ["React", "API Integration", "CSS3"],
+  //   githubUrl: "https://github.com/username/weather-app",
+  //   featured: false,
+  // },
+  // {
+  //   id: 4,
+  //   title: "Portfolio Website",
+  //   description:
+  //     "Shaxsiy portfolio veb-sayti zamonaviy dizayn va responsive layout bilan. Animatsiyalar va interaktiv elementlar.",
+  //   image: "/portfolio-website-design.png",
+  //   date: "2024 yil Sentyabr",
+  //   technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
+  //   githubUrl: "https://github.com/username/portfolio",
+  //   featured: false,
+  // },
+  // {
+  //   id: 5,
+  //   title: "Chat Application",
+  //   description:
+  //     "Real-time chat ilovasi Socket.io yordamida. Guruh chatlari, fayl yuborish va emoji qo'llab-quvvatlash.",
+  //   image: "/chat-application-interface.png",
+  //   date: "2024 yil Avgust",
+  //   technologies: ["React", "Socket.io", "Express", "MongoDB"],
+  //   githubUrl: "https://github.com/username/chat-app",
+  //   featured: false,
+  // },
+  // {
+  //   id: 6,
+  //   title: "Blog Platform",
+  //   description:
+  //     "Shaxsiy blog platformasi CMS imkoniyatlari bilan. Maqolalar yozish, tahrirlash va nashr qilish tizimi.",
+  //   image: "/blog-platform-cms-interface.jpg",
+  //   date: "2024 yil Iyul",
+  //   technologies: ["Next.js", "Markdown", "Vercel", "Git"],
+  //   githubUrl: "https://github.com/username/blog-platform",
+  //   featured: false,
+  // },
 ]
 
 export default function WorkPage() {
@@ -149,7 +149,7 @@ export default function WorkPage() {
         </div>
       </section>
 
-      {/* Other Projects */}
+      {/* Other Projects
       <section className="py-16 px-6 lg:px-12 bg-muted/30">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-12 gap-16">
@@ -201,7 +201,7 @@ export default function WorkPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

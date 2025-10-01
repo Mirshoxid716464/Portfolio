@@ -53,7 +53,7 @@ export default function OverviewPage() {
             <div className="lg:col-span-5">
               <div className="relative aspect-[4/5] max-w-md mx-auto">
                 <Image
-                  src="/professional-headshot-of-it-student.jpg"
+                  src="/photo_2025-10-01_13-51-40.jpg"
                   alt="Profile"
                   fill
                   className="object-cover rounded-2xl"
